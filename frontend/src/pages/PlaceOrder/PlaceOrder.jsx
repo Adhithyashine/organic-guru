@@ -121,6 +121,10 @@ const PlaceOrder = () => {
                         <img src={payment === "stripe" ? assets.checked : assets.un_checked} alt="" />
                         <p>Stripe ( Credit / Debit )</p>
                     </div>
+                    <div onClick={() => setPayment("razorpay")} className="payment-option">
+                        <img src={payment === "razorpay" ? assets.checked : assets.un_checked} alt="" />
+                        <p>Stripe ( Credit / Debit )</p>
+                    </div>
                 </div>
                 <button className='place-order-submit' type='submit'>{payment==="cod"?"Place Order":"Proceed To Payment"}</button>
             </div>
