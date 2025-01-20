@@ -7,6 +7,11 @@
 .navbar .logo{
     width: max(10%,80px);
 }
-.navbar .profile{
-    width: 40px;
-}
+
+.navbar-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 900px; /* Adjust as needed */
+    color: #397c39; /* Adjust color as needed */
+  }
+  
