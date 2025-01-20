@@ -36,7 +36,7 @@ const Order = () => {
 
   return (
     <div className='order add'>
-      <h3>Order Page</h3>
+      <h3 className='order'>Order Page</h3>
       <div className="order-list">
         {orders.map((order, index) => (
           <div key={index} className='order-item'>

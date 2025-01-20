@@ -9,12 +9,13 @@
 }
 .add form{
    gap: 20px;
+   width: 600px;
 }
 .add-img-upload img{
-    width: 120px;
+    width: 160px;
 }
 .add-product-name, .add-product-description{
-    width: max(40%,280px);
+    width: max(40%,300px);
 }
 .add-product-name input ,.add-product-description textarea{
     padding: 10px 10px;
@@ -24,7 +25,7 @@
     gap: 30px;
 }
 .add-category-price select,.add-category-price input{
-    max-width: 120px;
+    max-width: 150px;
     padding: 10px;
 }
 .add-btn{

@@ -9,6 +9,13 @@
     font-size: 14px;
     color: #505050;
 }
+
+.order h3{
+    width: 30vh;
+    height: auto;
+    font-family: sans-serif;
+
+}
 .order-item-food,.order-item-name{
     font-weight: 600;
 }
