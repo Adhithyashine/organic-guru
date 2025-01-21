@@ -35,13 +35,13 @@ const Footer = () => {
           <h2>Organic Guru</h2>
           <ul>
             <a href="/">
-              <li>Home</li>{" "}
+              <li>Home</li>
             </a>
             <a href="#explore-menu">
               <li>Products</li>
             </a>
             <a href="#app-download">
-              {" "}<li>About Us</li>
+             <li>About Us</li>
             </a>
             <a to="#footer">
               <li>Contact Us</li>
@@ -79,7 +79,7 @@ const Footer = () => {
                 href="mailto:organicgurufresh@gmail.com"
                 className="hover:underline text-blue-500"
               >
-                Email:organicgurufresh@gmail.com
+                Email:info@theorganicguru.com
               </a>
             </li>
           </ul>

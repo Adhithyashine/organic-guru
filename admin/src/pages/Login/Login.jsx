@@ -11,6 +11,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      // Corrected API URL to include the login route
       const response = await axios.post('http://localhost:4000/api/admin/login', { email, password });
       localStorage.setItem('adminToken', response.data.token);
       navigate('/add'); // Adjust the path based on your routing setup
@@ -21,8 +22,8 @@ const Login = () => {
 
   return (
     <div className="login-container">
-     <h2>Organi Guru</h2>    
-      <h3>  Admin Login</h3>
+     <h2>Organic Guru</h2>    
+      <h3>Admin Login</h3>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
