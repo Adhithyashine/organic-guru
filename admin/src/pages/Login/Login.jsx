@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
     try {
       // Corrected API URL to include the login route
-      const response = await axios.post('http://localhost:4000/api/admin/login', { email, password });
+      const response = await axios.post(`https://organic-guru.onrender.com/api/admin/login`, { email, password });
       localStorage.setItem('adminToken', response.data.token);
       navigate('/add'); // Adjust the path based on your routing setup
     } catch (error) {

@@ -11,7 +11,7 @@ const razorpayInstance = new Razorpay({
 //config variables
 const currency = "inr";
 const deliveryCharge = 50;
-const frontend_URL = 'http://localhost:5173';
+const frontend_URL = 'https://organic-guru-frontend.onrender.com';
 
 // Placing User Order for Frontend using stripe
 const placeOrderStripe = async (req, res) => {
